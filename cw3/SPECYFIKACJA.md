@@ -57,7 +57,7 @@ Funkcja sprawdza, czy hasło podane przy zakładaniu konta spełnia reguły.
 | ID   | Wymaganie |
 |------|-----------|
 | HS-1 | Argument `password` jest napisem (`str`). Argument innego typu → `TypeError`. |
-| HS-2 | Hasło ma długość od 8 do 20 znaków (włącznie). |
+| HS-2 | Hasło ma długość od 8 do 20 znaków (włącznie).|
 | HS-3 | Hasło zawiera co najmniej jedną literę (dowolną, także polską, np. `ą`, `Ż`) i co najmniej jedną cyfrę. |
 | HS-4 | Poza tym hasło może zawierać **dowolne** znaki, w tym znaki specjalne (np. `#`, `!`, `@`) i spacje. |
 
